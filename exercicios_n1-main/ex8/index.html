@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICIO 08</title>
+</head>
+<body>
+
+    <label for="texto">digite um número inteiro</label>
+    <input type="number" id="texto">
+
+    <button id="botao" onclick="submit()">BOTÃO</button>
+
+    <script>
+        function submit() {
+            var qtde = document.getElementById('texto').value;
+
+            for(i=0; i<qtde; i++){
+                document.writeln('AIA '+(i+1) + ' ')
+            }
+        }
+    </script>
+</body>
+</html>
