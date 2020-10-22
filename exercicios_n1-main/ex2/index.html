@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICIO 02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="notas">
+        <label for="v1">Nota 1º bimestre</label>
+        <input  id="1bi" type="text"><br>
+        
+        <label for="v1">Nota 2º bimestre</label>
+        <input  id="2bi" type="text"><br>
+
+        <label for="v1">Nota 3º bimestre</label>
+        <input  id="3bi" type="text"><br>
+
+        <label for="v1">Nota 4º bimestre</label>
+        <input  id="4bi" type="text"><br>
+
+        <label for="v1">Nota de Recuperação</label>
+        <input  id="nota-rec" type="text" required><br>
+    
+        <button id="calcular" onclick="obtemMedia()">Calcular</button>
+    </div>
+
+    <div id="resultado">
+        <label for="result">Resultado Final: </label>
+        <h1 id="result"></h1>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
