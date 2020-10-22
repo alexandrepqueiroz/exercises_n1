@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCÍCIO 03</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="principal">
+        <label for="salarioatual">Informe o salário atual:</label>
+        <input type="text" id="salarioatual" placeholder="põe o salário aqui">
+
+        <button id="submit" onclick="calcula()">calcular</button>
+<div id="tabela">
+        <table>
+            <tr>
+                <td>Salário antes do reajuste:</td>
+                <td id="semReajuste"></td>
+            </tr>
+
+            <tr>
+                <td>Percentual de aumento aplicado:</td>
+                <td id="percentual"></td>
+            </tr>
+               
+            <tr>
+                <td>Valor do aumento:</td>
+                <td id="aumento"></td>
+            </tr>
+               
+            <tr>
+                <td>Novo Salário após o aumento:</td>
+                <td id="comReajuste"></td>
+            </tr>
+        </table>
+</div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
