@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>EXERCÍCIO 05</title>
+</head>
+<body>
+ 
+
+    <div class="text-center">
+        <h1>Pesquisa de alturas e sexos</h1>
+        <p>Insira as alturas e sexos associados.</p>
+    </div>
+    <form class="classe1" id="elementos" method="POST">
+      <label for="form-control">Altura da Pessoa  </label>
+      <input type="number" class="altura" id="alt1"/>
+      <label for="form-control">Sexo da Pessoa  </label>
+      <input type="text" class="sexo" id="s1"/>
+      
+      <label for="form-control">Altura da Pessoa  </label>
+      <input type="number" class="altura" id="alt2"/>
+      <label for="form-control">Sexo da Pessoa  </label>
+      <input type="text" class="sexo" id="s2"/>
+      
+      <label for="form-control">Altura da Pessoa  </label>
+      <input type="number" class="altura" id="alt3"/>
+      <label for="form-control">Sexo da Pessoa  </label>
+      <input type="text" class="sexo" id="s3"/>
+      
+      <label for="form-control">Altura da Pessoa  </label>
+      <input type="number" class="altura" id="alt4"/>
+      <label for="form-control">Sexo da Pessoa  </label>
+      <input type="text" class="sexo" id="s4"/>
+      
+      <label for="form-control">Altura da Pessoa  </label>
+      <input type="number" class="altura" id="alt5"/>
+      <label for="form-control">Sexo da Pessoa  </label>
+      <input type="text" class="sexo" id="s5"/>
+<br><br>
+    </form>
+   
+
+<div class="row text-center">
+    <button class="btnSubmit" id="btnSubmit" onclick="calculo()">Submeter</button>
+</div><br><br>
+
+      <div id="tabelafinal">
+          <table>
+              <tr>
+                  <td>Total de Homens:</td>
+                  <td id="totalHomens"></td>
+              </tr>
+              <tr>
+                <td>Total de Mulheres:</td>
+                <td id="totalMulheres"></td>
+              </tr>
+              <tr>
+                <td>Maior Altura:</td>
+                <td id="maiorAltura"></td>
+              </tr>
+              <tr>
+                <td>Sexo da pessoa mais alta:</td>
+                <td id="sexoMaiorAltura"></td>
+              </tr>
+          </table>
+      </div>
+    <script src="index.js"></script>
+</body>
+</html>
